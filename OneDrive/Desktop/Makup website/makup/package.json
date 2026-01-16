@@ -1,7 +1,7 @@
 {
   "name": "makup",
   "version": "0.1.0",
-  "homepage": "https://surendrachinthakinda.github.io/Aelius-Makeovers-London",
+  "homepage": "https://surendrachinthakinda.github.io/Aelius-Makeovers-London-uk",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
