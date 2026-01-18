@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Aelius-Makeovers-London/static/css/main.3a2ed6c1.css",
-    "main.js": "/Aelius-Makeovers-London/static/js/main.f343c0d2.js",
+    "main.css": "/Aelius-Makeovers-London/static/css/main.b30799c7.css",
+    "main.js": "/Aelius-Makeovers-London/static/js/main.04121ecc.js",
     "index.html": "/Aelius-Makeovers-London/index.html",
-    "main.3a2ed6c1.css.map": "/Aelius-Makeovers-London/static/css/main.3a2ed6c1.css.map",
-    "main.f343c0d2.js.map": "/Aelius-Makeovers-London/static/js/main.f343c0d2.js.map"
+    "main.b30799c7.css.map": "/Aelius-Makeovers-London/static/css/main.b30799c7.css.map",
+    "main.04121ecc.js.map": "/Aelius-Makeovers-London/static/js/main.04121ecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a2ed6c1.css",
-    "static/js/main.f343c0d2.js"
+    "static/css/main.b30799c7.css",
+    "static/js/main.04121ecc.js"
   ]
 }
