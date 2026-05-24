@@ -1,0 +1,330 @@
+.services-page{
+  background:#0b0f14;
+  min-height:100vh;
+  color:white;
+  overflow:hidden;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.services-hero{
+  height:420px;
+  background:
+    linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)),
+    url("https://images.squarespace-cdn.com/content/v1/5366a336e4b0d727dcd0c9d2/1571850319104-ZPXJVGAEVT3YKJQW4RKB/ke17ZwdGBToddI8pDm48kKaCGyJkFXRmxRE7GyBPsxIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdMQSebvaVoIiVoMvTKRRFVd-hEHjms_FAXw-VPCphwiIay8beCdfImv-2EE0K3To/How-To-Become-a-Successful-Makeup-Artist-nina-mua.jpg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:20px;
+}
+
+.overlay{
+  max-width:850px;
+}
+
+.overlay h1{
+  font-size:68px;
+  margin-bottom:18px;
+  font-weight:1000;
+  line-height:1;
+  color:white;
+}
+
+.overlay p{
+  font-size:19px;
+  opacity:.9;
+  color:rgba(255,255,255,.85);
+  line-height:1.7;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container{
+  width:min(1250px, calc(100% - 30px));
+  margin:auto;
+  padding:70px 0;
+}
+
+/* =========================
+   SERVICE SECTION
+========================= */
+
+.service-section{
+  margin-bottom:70px;
+}
+
+.service-section h2{
+  margin-bottom:24px;
+  color:#f2b7c6;
+  font-size:38px;
+  font-weight:1000;
+  letter-spacing:1px;
+}
+
+/* =========================
+   SERVICE GRID
+========================= */
+
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:22px;
+}
+
+/* =========================
+   SERVICE CARD
+========================= */
+
+.service-card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:24px;
+  padding:24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:18px;
+  transition:.3s ease;
+  backdrop-filter:blur(10px);
+}
+
+.service-card:hover{
+  transform:translateY(-6px);
+  border-color:#f2b7c6;
+  box-shadow:0 12px 35px rgba(242,183,198,.12);
+}
+
+.service-card h3{
+  margin:0;
+  font-size:20px;
+  line-height:1.5;
+  color:white;
+  font-weight:900;
+}
+
+.service-card p{
+  margin-top:12px;
+  color:#f2b7c6;
+  font-size:18px;
+  font-weight:900;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.book-btn{
+  border:none;
+  background:white;
+  color:black;
+  padding:14px 20px;
+  border-radius:16px;
+  font-weight:900;
+  cursor:pointer;
+  transition:.3s ease;
+  min-width:130px;
+}
+
+.book-btn:hover{
+  background:#f2b7c6;
+  transform:translateY(-2px);
+}
+
+/* =========================
+   BOOKING BOX
+========================= */
+
+.booking-box{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:360px;
+  background:#121a23;
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:28px;
+  padding:26px;
+  z-index:999;
+  box-shadow:0 15px 50px rgba(0,0,0,.4);
+  backdrop-filter:blur(12px);
+}
+
+.booking-box h2{
+  margin-top:0;
+  margin-bottom:20px;
+  font-size:30px;
+  font-weight:1000;
+}
+
+.selected-service{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  margin-bottom:24px;
+  color:#f2b7c6;
+  font-size:16px;
+}
+
+.selected-service strong{
+  line-height:1.5;
+}
+
+.booking-box input{
+  width:100%;
+  padding:15px;
+  margin-bottom:16px;
+  border-radius:16px;
+  border:none;
+  background:#1d2630;
+  color:white;
+  font-size:15px;
+  outline:none;
+  box-sizing:border-box;
+}
+
+.booking-box input:focus{
+  border:1px solid #f2b7c6;
+}
+
+.confirm-btn{
+  width:100%;
+  border:none;
+  padding:15px;
+  border-radius:16px;
+  background:#f2b7c6;
+  color:black;
+  font-weight:1000;
+  font-size:15px;
+  cursor:pointer;
+  transition:.3s ease;
+}
+
+.confirm-btn:hover{
+  transform:translateY(-2px);
+  opacity:.95;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#f2b7c6;
+  border-radius:999px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:900px){
+
+  .overlay h1{
+    font-size:52px;
+  }
+
+  .service-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+  .services-hero{
+    height:360px;
+  }
+
+  .overlay h1{
+    font-size:42px;
+  }
+
+  .overlay p{
+    font-size:16px;
+  }
+
+  .container{
+    padding:45px 0;
+  }
+
+  .service-section{
+    margin-bottom:50px;
+  }
+
+  .service-section h2{
+    font-size:30px;
+  }
+
+  .service-grid{
+    grid-template-columns:1fr;
+  }
+
+  .service-card{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .book-btn{
+    width:100%;
+  }
+
+  .booking-box{
+    width:calc(100% - 24px);
+    right:12px;
+    left:12px;
+    bottom:12px;
+    padding:22px;
+  }
+}.service-card{
+  overflow:hidden;
+  padding:0;
+  flex-direction:column;
+}
+
+.service-image-wrap{
+  width:100%;
+  height:240px;
+  overflow:hidden;
+}
+
+.service-image{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:.4s;
+}
+
+.service-card:hover .service-image{
+  transform:scale(1.08);
+}
+
+.service-content{
+  padding:22px;
+  width:100%;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.service-content h3{
+  margin:0;
+}
+
+.service-content p{
+  margin-top:10px;
+}

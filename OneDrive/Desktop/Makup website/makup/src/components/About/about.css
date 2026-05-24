@@ -1,0 +1,31 @@
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-card p {
+  margin-bottom: 12px;
+}
+
+.about-list {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.about-list li {
+  margin: 6px 0;
+}
