@@ -12,7 +12,9 @@ const LINKS = [
 
 const BOOKING = {
   treatwell: "https://www.treatwell.co.uk/place/aelius-makeovers-london/",
-  whatsapp: "https://wa.me/447577578102",
+
+  whatsapp: "https://api.whatsapp.com/send?phone=447577578102",
+
   instagram: "https://instagram.com/aeliusmakeovers_london"
 };
 
